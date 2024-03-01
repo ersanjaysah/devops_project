@@ -21,8 +21,8 @@
                                 <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
                                     class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="${contextPath}/index">VISUAL PATH</a>
-                            <i class="brand_network"><small><small>Devops</small></small></i>
+                            <a class="navbar-brand" href="${contextPath}/index">DevOps Sensei</a>
+                            <i class="brand_network"><small><small>Project</small></small></i>
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
@@ -116,9 +116,9 @@
   <div class="container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" align="center">ABOUT</h3>
     <div class="w3-content" style="max-width:700px">
-	    <p style="text-align:justify;">DevOps-SenSei is an IT Educational Institute.Established in 2020,and Institute offers world class quality of education and wide range of courses.DevOps-SenSei Institute has a dedicated expert team to help students get job training & placement in various IT job roles with major companies.
+	    <p style="text-align:justify;">DevOps-Sensei is an IT Educational Institute.Established in 2020,and Institute offers world class quality of education and wide range of courses. DevOps-Sensei Institute has a dedicated expert team to help students get job training & placement in various IT job roles with major companies.
 	    </p>
-	    <p><strong>Address:</strong>  DevOps-SenSei Training Institute, Gwalior. (M.P.), India</p> 
+	    <p><strong>Address:</strong>  DevOps-Sensei Training Institute, Gwalior. (M.P.), India</p> 
 	    <p><strong>Ph No: </strong>  +91-8839477041,8839477041</p>
 		<p><strong>E-Mail ID :</strong>  devopssensei.hvr@gmail.com</p>
   	</div>

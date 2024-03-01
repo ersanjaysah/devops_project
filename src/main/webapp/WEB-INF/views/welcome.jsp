@@ -59,7 +59,7 @@
                                                     <div class="col-md-7">
                                                         <span> ${pageContext.request.userPrincipal.name}</span> <br/>
                                                         <p class="text-muted small">
-                                                            ${pageContext.request.userPrincipal.name}@visualpath.co.in</p>
+                                                            ${pageContext.request.userPrincipal.name}@Devops-Sensei.co.in</p>
                                                         <div class="divider">
                                                         </div>
                                                         <a href="${contextPath}/user/${pageContext.request.userPrincipal.name}" class="btn btn-default btn-xs"><i class="fa fa-user-o" aria-hidden="true"></i> UpdateProfile </a>
@@ -120,7 +120,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <span>
-                        <h1 class="panel-title pull-left" style="font-size:30px;">${pageContext.request.userPrincipal.name} &nbsp; <small>${pageContext.request.userPrincipal.name}@visualpath.co.in</small> <i class="fa fa-check text-success" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title=" sharing with you"></i></h1>
+                        <h1 class="panel-title pull-left" style="font-size:30px;">${pageContext.request.userPrincipal.name} &nbsp; <small>${pageContext.request.userPrincipal.name}@DevOps-Sensei.co.in</small> <i class="fa fa-check text-success" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title=" sharing with you"></i></h1>
                         <div class="dropdown pull-right">
 						
                             <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
