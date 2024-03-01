@@ -28,8 +28,8 @@
                             <a class="navbar-brand" href="#" style="margin-right:-8px; margin-top:-5px;">
                                 <img alt="Brand" src="${contextPath}/resources/Images/user/logo.png" width="30px" height="30px">
                             </a>
-                            <a class="navbar-brand" href="#">HKH Infotech</a>
-                            <i class="brand_network"><small><small>hkh* Network</small></small></i>
+                            <a class="navbar-brand" href="#">DevOps Sensei</a>
+                            <i class="brand_network"><small><small>Project</small></small></i>
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
@@ -101,7 +101,7 @@
                         <div class="media-body">
                             <hr>
                             <h3><strong>Bio</strong></h3>
-                            <p>DevOps For Product Management and Strategy of Application Delivery at HKH Infotech. Responsible of providing customers with counsel on their DevOps strategies to help them deliver higher quality software and services to market faster.</p>
+                            <p>DevOps For Product Management and Strategy of Application Delivery at DevOps Sensei. Responsible of providing customers with counsel on their DevOps strategies to help them deliver higher quality software and services to market faster.</p>
                             <hr>
                             <h3><strong>Location</strong></h3>
                             <p>Earth</p>

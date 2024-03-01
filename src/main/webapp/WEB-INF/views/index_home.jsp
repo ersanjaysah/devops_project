@@ -69,7 +69,7 @@
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="${contextPath}/resources/Images/technologies/Ansible_logo.png" alt="DevOps" style="width:150px;height:150px">      
+        <img src="${contextPath}/resources/Images/technologies/Ansible_logo.png" alt="DevOps" style="width:200px;height:150px">      
       </div>      
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -79,7 +79,7 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="${contextPath}/resources/Images/technologies/git.jpg" alt="DevOps" style="width:150px;height:150px">
+        <img src="${contextPath}/resources/Images/technologies/git.jpg" alt="DevOps" style="width:200px;height:150px">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -92,17 +92,17 @@
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="${contextPath}/resources/Images/technologies/docker.png" alt="DevOps" style="width:150px;height:150px">
+        <img src="${contextPath}/resources/Images/technologies/docker.png" alt="DevOps" style="width:200px;height:150px">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="${contextPath}/resources/Images/technologies/puppet.jpg" alt="DevOps" style="width:150px;height:150px">
+        <img src="${contextPath}/resources/Images/technologies/puppet.jpg" alt="DevOps" style="width:200px;height:150px">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="${contextPath}/resources/Images/technologies/Vagrant.png" alt="DevOps" style="width:150px;height:150px">
+        <img src="${contextPath}/resources/Images/technologies/Vagrant.png" alt="DevOps" style="width:200px;height:150px">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
