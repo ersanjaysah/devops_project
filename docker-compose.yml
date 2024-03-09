@@ -1,0 +1,52 @@
+version: '3.8'
+networks:
+  mynetwork:
+    driver: bridge
+
+services:
+  myapp:
+    image: myappimg:latest
+    ports:
+      - "80:8080"
+    networks: 
+      - mynetwork
+    environment:
+      - JDBC_HOST=mysql_container
+      - JDBC_USER=root
+      - JDBC_PASSWORD=root@123
+      - MEMCACHED_ACTIVE_HOST=memcached_container
+      - RABBITMQ_ADDRESS=rabbitmq_container
+      - RABBITMQ_USERNAME=test
+      - RABBITMQ_PASSWORD=test
+      - ELASTICSEARCH_HOST=elastic_container  
+  db:
+    image: mysql:latest
+    container_name: mysql_container
+    ports:
+      - "3306:3306"
+    environment:               
+      - MYSQL_ROOT_PASSWORD=root@123
+      - MYSQL_DATABASE=accounts
+    volumes:
+      - ./src/main/resources/db_backup.sql:/docker-entrypoint-initdb.d/db_backup.sql     
+    networks:
+      - mynetwork
+  
+  memcached:
+    image: memcached:latest
+    container_name: memcached_container
+    ports:
+      -  "11211:11211"
+    networks:
+      - mynetwork
+
+  rabbitmq:
+    image: rabbitmq:latest
+    container_name: rabbitmq_container
+    ports:
+      - "5672:5672"
+    environment:               
+      - RABBITMQ_DEFAULT_USER=test
+      - RABBITMQ_DEFAULT_PASS=test 
+    networks:
+      - mynetwork
